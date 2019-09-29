@@ -1,6 +1,10 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
+import HomePage from "./pages/HomePage.vue";
+import Play from "./pages/Play.vue";
+import List from "./pages/List.vue";
+import Login from "./pages/Login.vue";
+import LGD from "./pages/Lgd.vue";
 
 Vue.use(Router);
 
@@ -10,8 +14,33 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "home",
-      component: Home
+      name: "Login",
+      component: Login
+    },
+    {
+      path: "/home",
+      name: "HomePage",
+      component: HomePage
+    },
+    {
+      path: "/play",
+      name: "Play",
+      component: Play
+    },
+    {
+      path: "/list",
+      name: "List",
+      component: List
+    },
+    {
+      path: "/login",
+      name: "Login",
+      component: Login
+    },
+    {
+      path: "/lgd",
+      name: "LGD",
+      component: LGD
     },
     {
       path: "/about",
