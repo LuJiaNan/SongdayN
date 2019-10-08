@@ -159,10 +159,10 @@ export default {
     };
   },
   mounted: function() {
-    this.$axios
+    this.axios
       .get("static/test.json")
       .then(function(response) {
-        // console.log(response.data)
+        console.log(response.data)
       })
       .catch(function(response) {
         console.log(response);
