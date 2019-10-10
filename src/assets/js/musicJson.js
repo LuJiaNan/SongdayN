@@ -11,8 +11,8 @@ export const MUSIC_LIST = [
     id: 4,
     title: "成都",
     artist: "赵雷",
-    file: "http://oj4t8z2d5.bkt.clouddn.com/%E6%88%90%E9%83%BD.mp3",
-    cover: "http://oj4t8z2d5.bkt.clouddn.com/%E6%88%90%E9%83%BD.jpg"
+    file: "static/media/ChengDu/index.mp3",
+    cover: "static/media/ChengDu/index.png"
   },
   {
     id: 5,

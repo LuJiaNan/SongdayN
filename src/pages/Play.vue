@@ -3,7 +3,7 @@
         <my-header></my-header>
         <div id="lyricBody" class="lyricBody">
           <div id="scrollLyric" class="scrollLyric" v-bind:style="{ marginTop: scrollPx + 'px' }">
-            <my-component></my-component>
+            <!-- <my-component></my-component> -->
           </div>
         </div>
         <audio ref='audio' v-bind:src="songUrl | getUrl"></audio>
@@ -79,7 +79,7 @@ export default{
       volumeStatus: 'on',
       loopType: 'random',
       maxVolume: 100,
-      currentVolume: 0,
+      currentVolume: 50,
       playerLength: {
         width: '300px'
       },
