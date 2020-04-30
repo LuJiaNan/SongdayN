@@ -209,7 +209,7 @@ export default {
           return;
         }
         localStorage.setItem("currentUser", this.username);
-        this.$router.push({ path: "/home" });
+        this.$router.pushRoute({ path: "/home" });
         return;
       }
       this.$notify.error({
