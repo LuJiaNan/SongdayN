@@ -99,8 +99,10 @@ export default{
   },
   mounted: function () {
     // this.randomSongIndex = Math.floor(Math.random() * this.musicList.length)
-    // 成都测试
-    this.randomSongIndex = 1
+    // 成都测试 
+    // this.randomSongIndex = 1
+    // 蜗壳在线小说测试
+    this.randomSongIndex = 5
     this.initPlayer()
     this.bind()
   },

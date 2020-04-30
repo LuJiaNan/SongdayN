@@ -36,5 +36,11 @@ export const MUSIC_LIST = [
     file:
       "http://ouanvm4st.bkt.clouddn.com/Songday/songs/TRUE%20-%20Sincerely.mp3",
     cover: "http://ouanvm4st.bkt.clouddn.com/Songday/covers/Sincerely.jpg"
+  },
+  {
+    id: 8,
+    title: 'kobe',
+    artist: 'my mystery',
+    file: "https://samples.audible.com/bk/gran/000007/bk_gran_000007_sample.mp3"
   }
 ];
