@@ -19,7 +19,7 @@
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "lyric-parser": "^1.0.1",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "vue": "^2.6.10",
     "vue-axios": "^2.1.5",
     "vue-class-component": "^7.0.2",
